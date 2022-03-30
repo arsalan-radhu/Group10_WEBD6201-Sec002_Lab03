@@ -348,7 +348,7 @@ WEBD6201 Lab3
         messageArea.removeAttr("class").hide();
 
         // redirect user to secure area - contact-list.html
-        loadLink("contact-list");
+        loadLink("task-list");
       } else {
         // display an error message
         username.trigger("focus").trigger("select");
